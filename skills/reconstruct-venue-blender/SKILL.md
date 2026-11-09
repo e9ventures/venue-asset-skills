@@ -1,6 +1,6 @@
 ---
 name: reconstruct-venue-blender
-description: "Use to reconstruct or refine any property in Blender. Read plans, photos, owner corrections and existing scene code before editing. Record source provenance, coordinate system, units, scale basis, opening IDs and adjacency. Reconcile contradictory evidence; do not infer exact measurements from perspective photos. Support irregular footprints, multiple floors and entrances."
+description: "Reconstruct or refine venue geometry and furniture in Blender from floor plans, photos and owner corrections. Reconcile evidence, scale, openings and navigation boundaries before modeling."
 ---
 
 # Reconstruct Venue in Blender

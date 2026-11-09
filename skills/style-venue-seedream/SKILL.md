@@ -1,6 +1,6 @@
 ---
 name: style-venue-seedream
-description: "Use Seedream to style an accepted geometry view using the current property's reference photos. Inspect every reference and assign one role: composition/geometry, material/furniture category, lighting/exterior context. Prepare templates/seedream.txt using pipeline.py prompt and project-specific values. Name the attached inputs explicitly in the rendered prompt. Do not reuse previous venue styles or furniture descriptions implicitly."
+description: "Style an accepted venue geometry view with Seedream using photo references. Assign reference roles, prepare prompts and verify furniture, openings, lighting and spatial fidelity before video generation."
 ---
 
 # Style Venue with Seedream

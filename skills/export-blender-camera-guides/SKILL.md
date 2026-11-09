@@ -1,6 +1,6 @@
 ---
 name: export-blender-camera-guides
-description: "Use to create driving footage and matched stills from an accepted Blender/GLB scene. Read templates/project.example.json and scripts/blender_guide.py. Convert route coordinates explicitly to Blender Z-up metres; the glTF importer performs its own coordinate conversion, so do not transform an already imported model again. Export dense position/target samples from the actual interactive route if one exists. Include its exact endpoint and sample rate. Choose speed, lens and eye height for this project's intended movement."
+description: "Export and validate exact camera guides and matched frames from an accepted Blender or GLB venue scene. Use for route sampling, coordinate conversion, rendering and guide-clip encoding."
 ---
 
 # Export Blender Camera Guides

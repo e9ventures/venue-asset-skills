@@ -6,5 +6,21 @@
   "verification": {},
   "pending_defects": [],
   "next_action": "REPLACE",
-  "generation_ledger": []
+  "generation_ledger": [],
+  "publication": {
+    "reference_url": null,
+    "destination_owned": null,
+    "provider": null,
+    "account_or_team": null,
+    "project_id": null,
+    "audience": null,
+    "source_repository": null,
+    "source_branch": null,
+    "source_commit": null,
+    "deployment_id": null,
+    "live_url": null,
+    "approved_media_sha256": null,
+    "public_access_verified": false,
+    "hosted_media_verified": false
+  }
 }

@@ -1,0 +1,12 @@
+{
+  "project": "REPLACE with the project name",
+  "duration_seconds": "REPLACE with a supported duration",
+  "start_frame": "REPLACE with the exact attached start-frame filename",
+  "end_frame": "REPLACE with the exact attached end-frame filename",
+  "additional_reference_roles": "REPLACE with actual attached files and roles, or None",
+  "route_and_timing": "REPLACE with evidence-based route and clip-local intervals",
+  "camera_constraints": "REPLACE with eye height, pace, lens and heading constraints",
+  "geometry_invariants": "REPLACE with this venue's protected geometry and furniture",
+  "appearance": "REPLACE with finish matching both endpoint images",
+  "exclusions": "REPLACE with requested exclusions"
+}

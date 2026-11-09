@@ -1,0 +1,10 @@
+Create ONE continuous photorealistic {{duration_seconds}}-second connecting walk for {{project}}.
+FIRST FRAME: {{start_frame}}. Match its position, eye height, heading, framing, furniture, daylight and exposure. Continue forward immediately; no establishing shot or restart.
+LAST FRAME: {{end_frame}}. Arrive at this composition and end here. Do not begin the following clip's movement.
+ADDITIONAL ATTACHED REFERENCES: {{additional_reference_roles}}
+ROUTE AND LOCAL TIMING: {{route_and_timing}}
+CAMERA: {{camera_constraints}}. One uninterrupted walking shot with gradual heading changes. No reverse movement, sharp pivots, sideways orbit, zoom, frozen pause, cut or dissolve.
+SPACE AND FURNITURE: {{geometry_invariants}}. Use existing openings; never pass through closed glazing, walls, columns, tables or chairs. Keep rigid features stable. Do not invent openings or rearrange furniture.
+PHOTOGRAPHIC FINISH: {{appearance}}. Change exposure smoothly across the doorway, without flash or flicker.
+EXCLUSIONS: {{exclusions}}
+Deliver only the connecting walk, with the requested first and last compositions.
