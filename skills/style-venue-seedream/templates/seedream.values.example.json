@@ -1,0 +1,10 @@
+{
+  "project": "REPLACE with project-specific project",
+  "reference_roles": "REPLACE with project-specific reference roles",
+  "geometry_invariants": "REPLACE with project-specific geometry invariants",
+  "furniture_by_category": "REPLACE with project-specific furniture by category",
+  "materials_and_context": "REPLACE with project-specific materials and context",
+  "lighting": "REPLACE with project-specific lighting",
+  "output_settings": "REPLACE with project-specific output settings",
+  "exclusions": "REPLACE with project-specific exclusions"
+}

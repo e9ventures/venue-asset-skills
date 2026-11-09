@@ -1,0 +1,7 @@
+Create a photographic architectural image of {{project}}.
+REFERENCE ROLES: {{reference_roles}}
+COMPOSITION: Use the geometry render's exact camera and composition. Preserve {{geometry_invariants}}. Do not copy a photograph's viewpoint or invent openings.
+FURNITURE: {{furniture_by_category}}. Keep these categories separate; preserve count, positions, facing and connected arms/backs/legs.
+MATERIALS AND CONTEXT: {{materials_and_context}}. Show exterior context only through supported sightlines.
+LIGHT: {{lighting}}. Natural exposure, credible reflections and shadows, restrained surface variation, no grain or artificial HDR.
+OUTPUT: {{output_settings}}. {{exclusions}}

@@ -1,0 +1,12 @@
+{
+  "segment": "REPLACE with project-specific segment",
+  "project": "REPLACE with project-specific project",
+  "duration_seconds": "REPLACE with project-specific duration seconds",
+  "reference_roles": "REPLACE with project-specific reference roles",
+  "continuity": "REPLACE with project-specific continuity",
+  "movement": "REPLACE with project-specific movement",
+  "geometry_invariants": "REPLACE with project-specific geometry invariants",
+  "appearance": "REPLACE with project-specific appearance",
+  "ending": "REPLACE with project-specific ending",
+  "exclusions": "REPLACE with project-specific exclusions"
+}

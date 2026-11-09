@@ -1,0 +1,7 @@
+Produce segment {{segment}} for {{project}}, lasting {{duration_seconds}} seconds.
+REFERENCE ROLES: {{reference_roles}}
+CONTINUITY: {{continuity}}
+CAMERA: Follow the attached guide in its original order and speed. {{movement}}. No teleportation, unrequested orbit/zoom, or passing through furniture, walls or closed glazing.
+LOCKED GEOMETRY: {{geometry_invariants}}. Keep openings and access in their evidenced states. Keep rigid frames and railings stable in shape, position and color for every frame.
+APPEARANCE: {{appearance}}. Preserve distinct furniture categories and exposure through transitions.
+END: {{ending}}. No closing effect unless explicitly requested. {{exclusions}}

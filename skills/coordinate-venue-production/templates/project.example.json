@@ -1,0 +1,30 @@
+{
+  "project": "EXAMPLE_ONLY",
+  "revision": "r01",
+  "scene": "scene.glb",
+  "route": "route.json",
+  "sources": [
+    {
+      "id": "plan-01",
+      "path": "references/plan.pdf",
+      "role": "layout",
+      "scale_basis": "unmeasured; relative proportions only"
+    }
+  ],
+  "render": {
+    "fps": 12,
+    "width": 960,
+    "height": 540,
+    "samples": 4
+  },
+  "clips": [
+    {
+      "start": 0,
+      "duration": 2
+    }
+  ],
+  "invariants": [
+    "Replace with this property\u2019s protected openings and spatial relationships"
+  ],
+  "guide_hidden_objects": []
+}
