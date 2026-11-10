@@ -11,6 +11,8 @@ Before rendering, validate body clearance continuously, not just at keyframes: s
 
 Run pipeline.py validate PROJECT. Run Blender --background --factory-startup --python scripts/blender_guide.py -- PROJECT NEW_OUTPUT. Run pipeline.py encode PROJECT NEW_OUTPUT/frames NEW_MEDIA_OUTPUT. All paths/settings/clip intervals come from the project. Use a new revision directory; retain submitted guides unchanged. Require camera-validation.json, clearance evidence, matching hashes, complete frames and reviewed contact views before generation.
 
+Get the user's approval of the guide's actual motion at normal speed before any paid generation: turn start times, turn rate and direction, and where each clip starts and stops. Check that every accompanying prompt agrees with the guide; a prompt that requests a turn, a different timing or a different route contradicts it and invites sharp or invented movement. Plan clip handoff frames from the guide in advance: each clip ends at a defined route sample that the next clip starts from.
+
 
 ## Execution contract
 

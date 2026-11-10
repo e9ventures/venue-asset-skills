@@ -11,6 +11,10 @@ Inspect full playback plus frames around every transition and suspicious interva
 
 For an inserted bridge, preserve accepted source clips and review both joins for repeated frames, pauses, exposure jumps and a changed walking pace. The assembly helper intentionally removes audio: use it only for an authorized silent output. For a supplied finished video that only needs hosting, bypass assembly and preserve its bytes and audio. When sound must be retained during assembly, use an explicitly designed audio-preserving workflow instead of this helper.
 
+Measure continuity at each join rather than judging by eye. Estimate per-frame forward motion and pan (for example with optical flow) across the last and first second of each clip. When a generated clip walks faster or slower than its neighbours, retime it with motion-compensated interpolation to match pace, then review the interpolated frames for artifacts. When a clip starts behind or ahead of the previous clip's endpoint, choose the in-point whose frame best matches that endpoint instead of cutting at frame 0. Correct small framing offsets with a feature-matched similarity transform eased out over about a second. Re-measure after the edit: no backward step, pause or speed jump at any cut.
+
+Upscaling options: provider upscales sharpen only clips the provider generated; a local Real-ESRGAN-class upscale can process a finished film on a machine with a capable GPU. Neither recovers detail that was not generated; prefer generating final footage at the delivery resolution.
+
 
 ## Execution contract
 

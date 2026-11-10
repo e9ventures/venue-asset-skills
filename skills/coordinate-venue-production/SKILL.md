@@ -11,6 +11,16 @@ Maintain checkpoint.json with stage, input hashes, output paths, verification re
 
 Select dependencies for the requested output, not for a mandatory full pipeline. A short gap between two accepted clips may need only start/end-frame generation and finishing; an approved video replacement needs only integration. Do not require a Blender rebuild or a new camera guide when the selected supported mode does not consume one. The bundled scene/route manifest validator is for camera-guide production, not a gate for every stage.
 
+## Approval gates
+
+Approve layout, appearance and camera motion separately, in that order, before paid generation. Record each approval with the scene/route revision it covers.
+
+1. **Layout:** a blockout of walls, openings, major furniture and the walking route. Present a straight-down orthographic view overlaid on the owner's plan, plus a few eye-level views. Approve before detailed modeling.
+2. **Appearance:** one representative area finished in every intended output (for example the .blend render and the web viewer) before expanding to the whole venue.
+3. **Camera motion:** the actual guide clip or route playback, checked against the prompts that will accompany it, before any generation credits are spent.
+
+Keep one authoritative model and camera route. Web, GLB, Blender renders and generated films are versioned derivatives traceable to the approved revision. When an output applies materials or lighting at runtime (for example a browser appearance pass), record that other exports do not carry it, and reconcile it before rendering or generating from those exports.
+
 Keep reference URLs, owned hosting projects, local checkouts and Git remotes separate in the checkpoint. A live preview does not prove a source push, and a supplied website URL does not establish ownership. Verify the current revision and permissions from the relevant service before edits or claims of completion.
 
 

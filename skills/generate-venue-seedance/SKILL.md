@@ -19,6 +19,8 @@ Use the project clip manifest rather than fixed 10/12/11-second or other histori
 
 Read the displayed quote for the exact duration, resolution, references and mode immediately before submission. Compare it with the current usable balance and authorized budget; an earlier quote is not evidence of the current price. Record expiring credits and confirmed refunds separately. Do not spend credits on capability tests or retry a job with unknown status. When the user prohibits further spending, do not submit another paid generation without new authorization.
 
+Quotes depend on inputs as well as duration. Attached reference videos, Extend (which may also bill the input clip's duration) and full-quality modes can multiply the price; compare the quote with and without each optional input and drop inputs the chosen mode does not need. Tell the user to submit once and wait for the job to appear, since repeated clicks may queue duplicate paid jobs. When reference roles matter (a floor plan alongside start/end frames), keep the mode that accepts all of them rather than switching to one that silently drops a reference. State the delivered resolution plainly; Draft output is a preview resolution.
+
 
 ## Execution contract
 
